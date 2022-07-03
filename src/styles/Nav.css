@@ -1,0 +1,48 @@
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 2% 5%;
+    text-align: right;
+}
+
+.link-nav{
+    color: #fff;
+    padding: 10px;
+}
+.nav-item{
+    padding: 2px;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    color: #64FFDA;
+    font-weight: 700;
+    transform: translateY(-13px);
+}
+
+.connect{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 0;
+}
+
+.connect a{
+    padding: 10px;
+    text-decoration: none;
+    color: #666666;
+}
+
+.connect li:hover{
+    color: #64FFDA;
+    transform: translateY(-4px);
+}

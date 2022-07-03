@@ -1,0 +1,65 @@
+section{
+    padding: 7% 25% 7% 20%;
+    height: 100vh;
+}
+
+#about{
+    padding: 7% 15%;
+    margin: 10% auto;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about h2{
+    padding: 0;
+    font-weight: bolder;
+}
+
+.sec-heading{
+    font-size: 3rem;
+    padding-bottom: 25px;
+    color: #f1f1f1;
+    font-weight: bolder;
+
+}
+
+.about-text{
+    margin: 0;
+}
+
+.about-image{
+    padding-left: 20px;
+}
+
+.self-picture{
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgb(0, 0, 0)
+}
+
+.self-picture:hover {
+    transform: translateY(-7px);
+  }
+
+#about p{
+    padding: 40px 0 20px 0;
+    margin: 20px;
+}
+
+.download-btn{
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.download-btn:hover{
+    background-color: #64ffdb2c;
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+}

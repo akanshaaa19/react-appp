@@ -1,0 +1,18 @@
+body{
+    font-family: 'Source Code Pro', monospace;    
+    background-color: #191A19;
+    color: #fff;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+section{
+    /* padding: 7% 25% 7% 20%; */
+    /* height: 100vh; */
+}
+
+
+
+

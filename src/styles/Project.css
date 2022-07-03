@@ -1,0 +1,12 @@
+section{
+    /* padding: 7% 25% 7% 20%; */
+    height: 100vh;
+}
+
+.sec-heading{
+    font-size: 3rem;
+    padding-bottom: 25px;
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
