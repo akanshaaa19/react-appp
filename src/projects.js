@@ -4,7 +4,7 @@ const projects = [
         github: "https://github.com/akanshaaa19/weather-app",
         active: "https://thawing-oasis-79307.herokuapp.com/",
         title: "Weather App",
-        description: "This takes a city name as an input, and returns the current temprature, the minimum and maximum temparature, pressure, humidity etc.",
+        description: "This takes a city name as an input, and returns the current temperature, the minimum and maximum temperature, pressure, humidity etc.",
         stack: "NodeJS EJS API"
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         github: "https://github.com/akanshaaa19/todo-app",
         active: "",
         title: "To-Do App",
-        description: "In this app you can add todos, cross them off or delete them later on. This saves all the todos on a database. You can also create diferent lists for different activities",
+        description: "In this app you can add todos, cross them off or delete them later on. You can also create diferent lists for different activities.",
         stack: "NodeJS EJS MongoDB"
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         github: "https://github.com/akanshaaa19/portfolio-react",
         active: "",
         title: "Portfolio",
-        description: "A react Portfolio application, which describes me, my skills, and my projects",
+        description: "A  Portfolio application built on react, which describes me, my skills, and my projects",
         stack: "ReactJS HTML Bootstrap"
     }
 
