@@ -1,9 +1,9 @@
 import Nav from "./components/nav";
 import Home from './components/Home';
 import About from './components/About';
-import SkillsComponent from "./components/SkillsComponent";
+import SkillsComponent from "./components/Skills";
 import Projects from './components/Projects';
-
+import './styles/App.css';
 
 
 function App() {

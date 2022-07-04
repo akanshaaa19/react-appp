@@ -1,5 +1,6 @@
 const projects = [
     {
+        index: 1,
         github: "https://github.com/akanshaaa19/weather-app",
         active: "https://thawing-oasis-79307.herokuapp.com/",
         title: "Weather App",
@@ -7,6 +8,7 @@ const projects = [
         stack: "NodeJS EJS API"
     },
     {
+        index: 2,
         github: "https://github.com/akanshaaa19/notes-app",
         active: "",
         title: "Notes App",
@@ -14,6 +16,7 @@ const projects = [
         stack: "NodeJS EJS MongoDB"
     },
     {
+        index: 3,
         github: "https://github.com/akanshaaa19/todo-app",
         active: "",
         title: "To-Do App",
@@ -21,6 +24,7 @@ const projects = [
         stack: "NodeJS EJS MongoDB"
     },
     {
+        index: 4,
         github: "https://github.com/akanshaaa19/portfolio-react",
         active: "",
         title: "Portfolio",

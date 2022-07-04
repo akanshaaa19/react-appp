@@ -11,6 +11,7 @@ function createCard(card){
             title = {card.title}
             description = {card.description}
             stack = {card.stack}
+            key={card.index}
         />
     )
 }

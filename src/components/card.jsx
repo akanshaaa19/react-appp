@@ -5,10 +5,10 @@ function Card(props){
     return(
         <div className="project-card col-4">
             <div className="card-header">
-            <div className="folder-icon"><i class="fa-solid fa-folder-open fa-2x"></i></div>
+            <div className="folder-icon"><i className="fa-solid fa-folder-open fa-2x"></i></div>
                 <div className="card-links">
-                    <a className="card-link" href={props.github} target="_blank"><i className="fa-brands fa-github fa-lg"></i></a>
-                    <a className="card-link" href={props.link} target="_blank"><i className="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+                    <a className="card-link" href={props.github} target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github fa-lg"></i></a>
+                    <a className="card-link" href={props.link} target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
                 </div>
             </div>
             <div className="card-title">

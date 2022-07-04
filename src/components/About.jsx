@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/About.css'
+import image from '../assets/me.jpg';
 
 function About(){
     return(
@@ -19,7 +20,7 @@ function About(){
             </div>
 
             <div className="col-6 about-image">
-                <img className="self-picture" src="/assets/me.jpg"/>
+                <img className="self-picture" src={image} alt = "its me"/>
             </div>
             </div>
             </div>
