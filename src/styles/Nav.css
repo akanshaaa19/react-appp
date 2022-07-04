@@ -5,6 +5,7 @@ ul{
 
 a{
     text-decoration: none;
+    font-weight: 400;
 }
 
 nav{
@@ -26,8 +27,7 @@ nav{
 
 nav a:hover{
     color: #64FFDA;
-    font-weight: 700;
-    transform: translateY(-13px);
+    font-weight:900;
 }
 
 .connect{
@@ -45,4 +45,9 @@ nav a:hover{
 .connect li:hover{
     color: #64FFDA;
     transform: translateY(-4px);
+}
+
+.nav li:hover{
+    transform: translateY(-3px);
+    font-weight: bold;
 }

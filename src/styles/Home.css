@@ -12,7 +12,8 @@ section{
 }
 
 .home-heading{
-    font-size: 4.5rem;
+    font-size: 5rem;
+    padding-bottom: 20px;
 }
 
 .home-p{
@@ -21,24 +22,18 @@ section{
 }
 
 .intro{
-    padding-top: 100px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
 }
 
-.home-connect{
-    display: none;
+.hi{
+    display: block;
 }
 
-.img-bg{
-    background-color: #b6f1e265;
-    border-radius: 100%;
-    height: 30vh;
-    width: 30vh;
-    text-align: center;
-}
-.intro-img{
-    height: 30vh;  
-    border-radius: 100%;
-}
+
 
 .name{
     color: #64FFDA;

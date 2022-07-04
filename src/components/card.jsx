@@ -3,7 +3,7 @@ import '../styles/Card.css';
 
 function Card(props){
     return(
-        <div className="project-card col-4">
+        <div className="project-card col-lg-4 col-md-6">
             <div className="card-header">
             <div className="folder-icon"><i className="fa-solid fa-folder-open fa-2x"></i></div>
                 <div className="card-links">
