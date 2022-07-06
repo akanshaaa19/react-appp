@@ -11,7 +11,7 @@ function About(){
             <div className="row">
             <div className="col-6 about-text">
                 <p>
-                I am currently a third year Computer Science student who has great interest in full-stack development as well as data science. 
+                I am currently a third year <b>Computer Science</b> student who has great interest in <b>full-stack development</b> as well as data science. 
                 I am someone who loves to take up new challenges and learn new skills. Along with all this I like taking part in Hackathons, meet new people and exchange different ideas.
                 </p>
 

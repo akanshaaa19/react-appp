@@ -23,14 +23,14 @@ const projects = [
         description: "In this app you can add todos, cross them off or delete them later on. You can also create diferent lists for different activities.",
         stack: "NodeJS EJS MongoDB"
     },
-    {
-        index: 4,
-        github: "https://github.com/akanshaaa19/portfolio-react",
-        active: "",
-        title: "Portfolio",
-        description: "A  Portfolio application built on react, which describes me, my skills, and my projects",
-        stack: "ReactJS HTML Bootstrap"
-    }
+    // {
+    //     index: 4,
+    //     github: "https://github.com/akanshaaa19/portfolio-react",
+    //     active: "",
+    //     title: "Portfolio",
+    //     description: "A  Portfolio application built on react, which describes me, my skills, and my projects",
+    //     stack: "ReactJS HTML Bootstrap"
+    // }
 
 ]
 

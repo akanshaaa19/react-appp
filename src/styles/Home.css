@@ -1,15 +1,12 @@
 section{
     padding: 7% 25% 7% 20%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0; 
 }
 
-.sec-heading{
-    font-size: 3rem;
-    padding-bottom: 25px;
-    color: #f1f1f1;
-    font-weight: bolder;
-
-}
 
 .home-heading{
     font-size: 5rem;
@@ -21,21 +18,46 @@ section{
     color: #d6d6d6;
 }
 
-.intro{
-    padding-top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto 0;
-}
-
 .hi{
     display: block;
 }
 
+.hi-btn{
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
 
+.hi-btn:hover{
+    background-color: #64ffdb2c;
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+}
 
 .name{
     color: #64FFDA;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .intro{
+        padding-top: 100px;
+    }
+    .home-heading{
+        font-size: 3rem;
+    }
+    
+    .home-p{
+        font-size: 1rem;
+        width: 100%;
+        display: inline;
+    }
+
+    .hi-btn{
+        padding: 10px 20px;
+        display: block;
+    }
+  }

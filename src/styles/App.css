@@ -13,10 +13,24 @@ html, body{
 }
 
 section{
-    padding: 7% 25% 7% 20%; 
-     height: 100vh;
+    padding: 7% 25% 7% 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0; 
 }
 
+@media only screen and (max-width: 768px){
+    section{
+        height: 25%;
+        padding: 10% 8%;
+    }
 
+    .sec-heading{
+        font-size: 2rem;
+    }
+
+}
 
 

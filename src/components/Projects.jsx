@@ -28,7 +28,7 @@ function Projects(){
                 {projects.map(createCard)}
                 
                 </div>
-                
+                <div className="project-btn"><a href="/projects" className="more-btn">View More<i className="fa-solid fa-angle-right"></i></a>    </div>
             </div>
         </section>
     );
